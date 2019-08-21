@@ -3,7 +3,7 @@ PATH
   specs:
     sorcery-jwt (0.1.7)
       jwt (~> 1.0)
-      sorcery (~> 0.13.0)
+      sorcery (>= 0.13.0)
 
 GEM
   remote: https://rubygems.org/
@@ -45,7 +45,7 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     slop (3.6.0)
-    sorcery (0.13.0)
+    sorcery (0.14.0)
       bcrypt (~> 3.1)
       oauth (~> 0.4, >= 0.4.4)
       oauth2 (~> 1.0, >= 0.8.0)
@@ -54,10 +54,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
-  pry (~> 0.10.0)
-  rake (~> 10.0)
-  rspec (~> 3.0)
+  bundler
+  pry
+  rake
+  rspec
   sorcery-jwt!
 
 BUNDLED WITH
