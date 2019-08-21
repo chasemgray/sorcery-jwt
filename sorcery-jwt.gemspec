@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Jwt extension for the Sorcery authentication library"
   spec.description   = ""
-  spec.homepage      = "https://github.com/hayfever/sorcery-jwt"
+  spec.homepage      = "https://github.com/mklocker/sorcery-jwt"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
